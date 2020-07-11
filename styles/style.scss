@@ -19,7 +19,8 @@ $gray-text: #2c2c2c;
 @import "projects";
 @import "contact";
 @import "footer";
-@media screen and(max-width:1332px) {
+
+@media screen and (max-width: 1332px) {
 	html {
 		font-size: 53%;
 	}
@@ -45,9 +46,8 @@ $gray-text: #2c2c2c;
 		width: 100%;
 	}
 	nav {
-		margin: 2rem;
 		.logo {
-			@include flex(center, center, colum);
+			@include flex(center, center, column);
 			flex: 1 1 20rem;
 			margin-top: 2rem;
 		}
